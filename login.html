@@ -5,11 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gNexus - LOGIN</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./_img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./_css/styleLoginNexus.css">
 </head>
 <body>
 
-    <h1 class="titulo">LOGIN</h1>
+    <div class="container">
+        <img src="./_img/undraw_enter-password_1kl4.svg" width="380px">
+
+        <div class="card-login">
+            <div id="header">
+                <h class="titulo">Login gNexus</h>
+            </div>
+
+            <div id="carga-login">
+                <form action="#" method="post">
+                    <div class="col-lm-3">
+                        <div class="input-group">
+                            <div class="input-group-text">@</div>
+                            <input type="email" class="form-control" id="email" placeholder="E-mail" required>
+                        </div>
+                    </div>
+                    <div class="col-lm-3">
+                        <div class="input-group">
+                            <div class="input-group-text"><i class="bi bi-key-fill"></i></div>
+                            <input type="password" class="form-control" id="password" placeholder="Digite sua senha." required>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <button type="submit" class="btn btn-success">ENTRAR</button> | 
+                        <a href="#">Solicite já o seu acesso!</a>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>

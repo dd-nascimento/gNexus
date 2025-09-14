@@ -1,7 +1,7 @@
 
 /* IMPORTS */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
 *{
     padding: 0;
@@ -12,11 +12,32 @@
 /* Declarações CSS */
 body{
     background: linear-gradient(to right, #00261C 0%, 40.87677725118483%, #45BF55 66.25916957855225%, 83.12958478927612%, #97ED8A 100%);
+}
 
+.container{
+    display: flex;
+    width: 75%;
+    margin-top: 5%;
+    padding: 5px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #F2F2F2;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-login{
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-left: 20px;
+    border: solid black 1px;
+
+}
+
+#avatar{
+    width: 20%;
 }
 
 .titulo{
     font-family: "Saira", sans-serif;
     font-size: 30px;
-    color: white;
 }
