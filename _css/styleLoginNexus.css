@@ -1,0 +1,22 @@
+
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Declarações CSS */
+body{
+    background: linear-gradient(to right, #00261C 0%, 40.87677725118483%, #45BF55 66.25916957855225%, 83.12958478927612%, #97ED8A 100%);
+
+}
+
+.titulo{
+    font-family: "Saira", sans-serif;
+    font-size: 30px;
+    color: white;
+}
