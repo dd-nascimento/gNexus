@@ -24,6 +24,10 @@ body{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+#banner{
+    width: 50%;
+}
+
 .card-login{
     display: block;
     width: 100vh;
@@ -50,4 +54,17 @@ body{
 .titulo{
     font-family: "Saira", sans-serif;
     font-size: 30px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 1.5rem;
+  }
+  #banner{
+    display: none;
+  }
+  .titulo {
+    font-size: 1rem;
+  }
 }
